@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fluid Sim</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<canvas id="canvas" width="2532" height="2532"></canvas>
+	<div class="container">
+		<div class="text" id="dissipate-dye-text">dissipate dye</div>
+		<input type="range" min="0" max="100" value="5" class="slider" id="dissipate-dye">
+		<div class="text" id="dissipate-speed-text">dissipate speed</div>
+		<input type="range" min="0" max="100" value="0" class="slider" id="dissipate-speed">
+		<div class="text" id="diffuse-dye-text">diffuse dye</div>
+		<input type="range" min="0" max="100" value="0" class="slider" id="diffuse-dye">
+		<div class="text" id="diffuse-speed-text">diffuse speed</div>
+		<input type="range" min="0" max="100" value="0" class="slider" id="diffuse-speed">
+		<div class="text" id="radius-text">draw radius</div>
+		<input type="range" min="5" max="25" value="10" class="slider" id="radius">
+		<div class="text">shading</div>
+		<label class="switch">
+		  <input type="checkbox" id="shading">
+		  <span class="toggle-slider"></span>
+		</label>
+	<div class="container">
+
+	<script src="https://r105.threejsfundamentals.org/threejs/resources/threejs/r105/three.min.js"></script>
+	<script src="shaders.js"></script>
+	<script src="util.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
