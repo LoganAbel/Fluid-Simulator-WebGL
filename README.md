@@ -1,5 +1,3 @@
 # Fluid-Simulator-WebGL
 
-download and run main.html to see
-
-the simulation is computed using shaders
+to run go [here](https://loganabel.github.io/Fluid-Simulator-WebGL/main.html)
